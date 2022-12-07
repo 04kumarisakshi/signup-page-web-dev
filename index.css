@@ -1,0 +1,83 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{ 
+    font-family:'Oswald', sans-serif;
+}
+.outer-box{
+width: 100vw;
+height: 100vh;
+background: linear-gradient(to top left,rgb(113, 211, 216),rgb(16, 158, 197)); 
+ 
+}
+.inner-box {
+    width: 400px;
+   margin: 0 auto;
+   position: relative;
+   top: 50%;
+   padding: 20px 40px;
+   background-color: rgb(209, 222, 253);
+    border-radius:25px ;
+    transform: translateY(-50%);
+     box-shadow: 2px 2px 5px rgb(137, 116, 156);
+     z-index: 2;
+}
+.signup-header p{
+    color: gray;
+    font-size: 15px;
+}
+.signup-body p{
+    margin: 10px;
+    
+}
+.signup-body p label{
+     display: block;
+     font-size: 20px;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.signup-body p input[type="submit" ]
+{
+    background-color: rgb(9, 159, 234);
+    color: rgb(239, 236, 237);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+
+}
+.signup-body p input[type="Reset" ]
+{
+    background-color: rgb(17, 234, 241);
+    color: rgb(63, 7, 20);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: linear-gradient(to right,rgba(220, 220, 239, 0.511),rgba(107, 66, 195, 0.804));
+    position:absolute;
+
+}
+.c1
+{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
